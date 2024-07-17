@@ -28,6 +28,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 350px;
+  justify-items: center;
 }
 
 .logo {
@@ -97,3 +98,36 @@ body {
 }
 
 /* Final - Estilos de Pantalla: password.html */
+
+/* Inicio - Estilos de Pantalla: email.html */
+
+.email-image {
+  width: 132px;
+  height: 132px;
+  background-color: var(--text-input-field);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.email-image img {
+  width: 80px;
+}
+
+.resend {
+  font-size: var(--sm);
+}
+
+.resend span {
+  color: var(--very-light-pink);
+  font-weight: 300;
+}
+
+.resend a {
+  color: var(--hospital-green);
+  text-decoration: none;
+}
+
+/* Final - Estilos de Pantalla: email.html */
