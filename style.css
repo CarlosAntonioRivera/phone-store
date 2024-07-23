@@ -113,6 +113,11 @@ body {
   .form-container-between button {
     margin-bottom: 30px;
   }
+
+  .form {
+    height: 100%;
+    justify-content: space-between;
+  }
 }
 
 /* Final - Estilos de Pantalla: password.html */
@@ -179,3 +184,19 @@ body {
 }
 
 /* Final - Estilos de Pantalla: login.html */
+
+/* Inicio - Estilos de Pantalla: account.html */
+
+.input-name,
+.input-email,
+.input-password {
+  margin-bottom: 22px;
+}
+
+.title-account {
+  font-size: var(--lg);
+  margin-bottom: 36px;
+  text-align: start;
+}
+
+/* Final - Estilos de Pantalla: account.html */
