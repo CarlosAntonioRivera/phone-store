@@ -200,3 +200,13 @@ body {
 }
 
 /* Final - Estilos de Pantalla: account.html */
+
+/* Inicio - Estilos de Pantalla: editAccount.html */
+
+.value {
+  color: var(--very-light-pink);
+  font-size: var(--md);
+  margin: 8px 0 32px 0;
+}
+
+/* Final - Estilos de Pantalla: editAccount.html */
